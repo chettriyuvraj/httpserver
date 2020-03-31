@@ -30,3 +30,8 @@ Ensure that there is an index.html file in the directory of the main httpserver 
 On pressing enter - http request is sent to local server -the content of the index.html file (Hello World in this case) is displayed in the browser. (Screenshot 2)
 
 3. To confirm http request and response, go back to terminal. The script displays the HTTP request from the browser in full. (Screenshot 3)
+
+## Future
+
+- Want to add code to display images as well 
+- Figure out how to access server through remote computer using port forwarding
