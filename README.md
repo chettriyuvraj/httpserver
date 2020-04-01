@@ -31,6 +31,8 @@ On pressing enter - http request is sent to local server -the content of the ind
 
 3. To confirm http request and response, go back to terminal. The script displays the HTTP request from the browser in full. (Screenshot 3)
 
+Possible issue: Connection refused when firing up the server - this might happen if the PORT(50009) is already being used by some other service. Change the PORT variable in httpserver script to some other large number (say 50008) and run the script again. 
+
 ## Future
 
 - Want to add code to display images as well 
