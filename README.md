@@ -37,3 +37,4 @@ Possible issue: Connection refused when firing up the server - this might happen
 
 - Want to add code to display images as well 
 - Figure out how to access server through remote computer using port forwarding
+- Possibly write a piece on Medium documenting how/what I did 
