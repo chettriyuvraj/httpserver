@@ -29,12 +29,12 @@ Finally, on going back to the terminal, as evidence of the http request from the
 Ensure that there is an index.html file in the directory of the main httpserver script. (For convenience - the file is already provided)
 On pressing enter - http request is sent to local server -the content of the index.html file (Hello World in this case) is displayed in the browser. (Screenshot 2)
 
-3. To confirm http request and response, go back to terminal. The script displays the HTTP request from the browser in full. (Screenshot 3)
+3. To confirm http request and response, go back to terminal. The script displays the HTTP request from the browser in full. This is the http 'GET' request that clients send to servers when asking for a file.(Screenshot 3)
 
 Possible issue: Connection refused when firing up the server - this might happen if the PORT(50009) is already being used by some other service. Change the PORT variable in httpserver script to some other large number (say 50008) and run the script again. 
 
 ## Future
 
-- Want to add code to display images as well 
+- This was an extremely minimal implementation demonstrating the HTTP 'Get' request that clients send to servers. Would want to implement other HTTP requests (POST, et al) as well as a full-scale implementation of the 'GET' request.
 - Figure out how to access server through remote computer using port forwarding
 - Possibly write a piece on Medium documenting how/what I did 
